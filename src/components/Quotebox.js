@@ -27,8 +27,7 @@ const QuoteBox = ({ selectedQuote, assignNewQuoteIndex }) => {
       </div>
       <div className="Row">
         <div id="tweet-quote">
-          <a target = "_blank" 
-            href={`https://twitter.com/intent/tweet?text=${selectedQuote.quote}`}>
+          <a target = "_blank" rel="noopener noreferrer" href={`https://twitter.com/intent/tweet?text=${selectedQuote.quote}`}>
             <Button className="btn" buttonDisplayName = "">
               <FontAwesomeIcon icon = { faTwitter } size = "lg" />
             </Button>
