@@ -8,7 +8,6 @@ import { faQuoteRight } from '@fortawesome/free-solid-svg-icons';
 import { Button } from 'react-bootstrap';
 
 
-
 const QuoteBox = ({ selectedQuote, assignNewQuoteIndex }) => {
   return (
     <>
